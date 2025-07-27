@@ -1,4 +1,4 @@
-# Task 2: AWS Resource Report Script - README
+Automate Multi-Service AWS Inventory Report and Sync to OneDrive in Excel Format
 
 ## 🔖 Objective
 
@@ -207,10 +207,4 @@ if __name__ == "__main__":
 ```bash
 python updated_fetch_aws_resources.py
 ```
-
----
-
-## 📃 Author
-
-Sri Lakshmi
 
