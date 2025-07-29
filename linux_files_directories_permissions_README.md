@@ -1,31 +1,7 @@
 
 # Linux: Files, Directories, and Permissions
 
-This README provides a detailed understanding of Files, Directories, File System concepts, and Permissions in Linux. Useful for beginners, DevOps, and AWS learners.
-
----
-
-## 📁 1. Linux File System Overview
-
-- Linux uses a **hierarchical file system** starting from the root `/`.
-- All files, directories, devices, and mounts are placed under `/`.
-
-### 🔹 Common Directories
-
-| Directory | Purpose |
-|----------|---------|
-| `/`      | Root directory |
-| `/home`  | User home directories |
-| `/etc`   | System configuration files |
-| `/var`   | Log files and variable data |
-| `/tmp`   | Temporary files |
-| `/bin`   | Essential binaries |
-| `/usr`   | User-installed software |
-| `/mnt`   | Mount point for external devices |
-
----
-
-## 📄 2. Working with Files
+## 📄 1. Working with Files
 
 ### Create a file
 ```bash
@@ -53,7 +29,7 @@ rm filename.txt
 
 ---
 
-## 📁 3. Working with Directories
+## 📁 2. Working with Directories
 
 ### Create a directory
 ```bash
@@ -87,7 +63,7 @@ rm -r foldername        # Recursive delete
 
 ---
 
-## 🔐 4. File Permissions
+## 🔐 3. File Permissions
 
 ### Syntax:
 ```bash
@@ -122,28 +98,3 @@ chmod 644 file.txt  # rw-r--r--
 chown user file.txt
 chown user:group file.txt
 ```
-
----
-
-## 💡 Bonus: File System Commands
-
-```bash
-df -h       # Disk usage
-du -sh *    # Size of each item in current directory
-mount       # Show mounted file systems
-umount      # Unmount a file system
-lsblk       # List block devices (disks)
-```
-
----
-
-## ✅ Summary
-
-Understanding Linux file system structure, managing files/directories, and handling permissions is essential for:
-- AWS EC2/Linux administration
-- DevOps tasks (like Docker volumes, Kubernetes mounts)
-- System troubleshooting and scripting
-
----
-
-> Created for educational purpose. Suitable for GitHub README upload.
