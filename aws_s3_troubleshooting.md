@@ -1,10 +1,10 @@
 
-# 🪣 AWS S3 - L1 and L2 Troubleshooting Guide
-
+Amazon Simple Storage Service
+AWS S3 - L1 and L2 Troubleshooting
 
 ---
 
-## 📌 L1 Support Responsibilities for AWS S3
+## L1 Support Responsibilities for AWS S3
 
 ### 1. ❓ Basic Access Issues
 - **Issue**: User unable to access S3 bucket or file.
@@ -44,7 +44,7 @@
 
 ---
 
-## 🚧 L2 Support Responsibilities for AWS S3
+## L2 Support Responsibilities for AWS S3
 
 ### 1. 🔁 S3 Versioning & Data Recovery
 - **Issue**: File was overwritten or deleted.
@@ -116,25 +116,9 @@ aws s3api put-bucket-versioning --bucket my-bucket-name --versioning-configurati
 
 ---
 
-## 🧠 Tips for Support Engineers
+## Note:
 
 - Always cross-check permissions before escalating.
 - Use AWS Policy Simulator to validate IAM/bucket policies.
 - Use CloudTrail to audit S3-related activities.
 - Enable logging and versioning in critical buckets for auditing and recovery.
-
----
-
-## 📚 References
-
-- [AWS S3 Documentation](https://docs.aws.amazon.com/s3/)
-- [AWS S3 FAQs](https://aws.amazon.com/s3/faqs/)
-- [S3 Pricing](https://aws.amazon.com/s3/pricing/)
-
----
-
-## 🧾 Author
-
-Created by: T Srilakshmi  
-Company: Sify Technologies Ltd.  
-AWS Support Documentation – For GitHub Knowledge Sharing
