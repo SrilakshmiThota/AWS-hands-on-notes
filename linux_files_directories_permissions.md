@@ -1,4 +1,3 @@
-
 # Linux: Files, Directories, and Permissions
 
 ## 📄 1. Working with Files
